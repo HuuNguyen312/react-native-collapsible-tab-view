@@ -128,6 +128,8 @@ export type CollapsibleProps = {
    * @default false
    */
   allowHeaderOverscroll?: boolean
+
+  onHeaderTranslateY?: (translateY?: number) => void
 }
 
 export type ContextType<T extends TabName = TabName> = {
